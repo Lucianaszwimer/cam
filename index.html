@@ -9,6 +9,7 @@
 		<link href="css/styles.css" rel="stylesheet" />		
 	</head>
     <body>
+          <!--nav-->
         <nav class="navbar navbar-expand-lg bg-white">
             <div class= "container">
                 <div>
@@ -17,7 +18,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse resp" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <div style="justify-content: flex-end">
                   <ul class="nav justify-content-end">
                       <li class="nav-item">
                       <a class="nav-link active item" href="#">INICIO</a>
@@ -32,10 +34,11 @@
                       <a class="nav-link item" href="#">CONTACTO</a>
                       </li>
                   </ul>
+                </div>
               </div>
             </div>
         </nav>
-        <div>
+          <!--carousel-->
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -68,11 +71,12 @@
                 </button>
             </div>
         </div>
+        <!--cards-->
         <div class= "container">
             <h4 class="texto"><b>Productos Destacados</b></h4>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card borde">
+                  <div class="card">
                     <img src="img/Capa-1.png" class="card-img-top imagen" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Lavatorios</h5>
@@ -81,7 +85,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card borde">
+                  <div class="card">
                     <img src="img/Capa-1.png" class="card-img-top imagen" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Lavatorios</h5>
@@ -90,7 +94,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card borde">
+                  <div class="card">
                     <img src="img/Capa-1.png" class="card-img-top imagen" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Lavatorios</h5>
@@ -99,7 +103,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card borde">
+                  <div class="card">
                     <img src="img/Capa-1.png" class="card-img-top imagen" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Lavatorios</h5>
@@ -108,7 +112,7 @@
                   </div>
                 </div>
                 <div class="col">
-                    <div class="card borde">
+                    <div class="card">
                       <img src="img/Capa-1.png" class="card-img-top imagen" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Lavatorios</h5>
@@ -117,7 +121,7 @@
                     </div>
                   </div>
                   <div class="col">
-                    <div class="card borde">
+                    <div class="card">
                       <img src="img/Capa-1.png" class="card-img-top imagen" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Lavatorios</h5>
@@ -128,44 +132,33 @@
               </div>
         </div>
         <div>
-            <hr class="linea"/>
+          <!--publicidad-->
+        <br><br>
         </div>
-        <div class="container"style="margin-bottom:2rem">
-            <h4 class="texto"><b>Marcas con las que trabajamos</b></h4>
+        <div class="container">
+            <h5>Marcas con las que trabajamos</h5>
+            <br>
             <div class="row g-4">
               <div class = "col-lg-4 col-sm-6">
-                <img src="img/ferrum.png" class="card-img-top marcas" alt="...">
+                <img src="img/ferrum.png" class="card-img-top fotoFinal" alt="...">
               </div> 
               <div class = "col-lg-4 col-sm-6">
-                <img src="img/delta.png" class="card-img-top marcas" alt="...">
+                <img src="img/delta.png" class="card-img-top fotoFinal" alt="...">
               </div> 
               <div class = "col-lg-3 col-sm-4">
-                <img src="img/Logo-Negativo.png" class="card-img-top marcas" alt="...">
+                <img src="img/Logo-Negativo.png" class="card-img-top fotoFinal" alt="...">
               </div>   
               <div class = "col-lg-1 col-sm-2">
-                <img src="img/logo_ips.png" class="card-img-top marcas" alt="...">
+                <img src="img/logo_ips.png" class="card-img-top fotoFinal" alt="...">
               </div> 
             </div>
         </div>
-        <nav class="navbar bg-dark">
-            <div class= "container">
-                <div>
-                    <img src="img/logo_byn.png" class="img" alt="...">
-                </div>
-                <div class="text">
-                    <img src="img/ubi.png" alt="" width="30" class="d-inline-block align-text-top foot">
-                    Beiro 3300 - Villa del Parque
-                    <br>
-                    <img src="img/mail.png" alt="" width="30" class="d-inline-block align-text-top foot">
-                    contacto@sanitarioscampana.com.ar
-                </div>
-                <div class="icon">
-                  <br><br><br>
-                  <img src="img/tel.png" alt="" width="30" class="d-inline-block align-text-center tel">
-                    4503-6015
-              </div>
-            </div>
-        </nav>
+        <!--footer-->
+        <footer>
+          <img class="imgUltIzq" src="img/logo_byn.png"><br>
+          Beiro 3300 - Villa del Parque<br>contacto@sanitarioscampana.com.ar<br>
+          <img class="imgUltDer" src="img/tel.png">
+        </footer>
 		<script src="js/bootstrap.bundle.min.js" ></script>
 	</body>	
 </html>
