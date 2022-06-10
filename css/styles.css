@@ -31,14 +31,14 @@
 footer{
     text-align: center;
     color: white;
-    padding: 30px;
+    padding: 70px;
     margin: 1rem;
     background-color: rgb(56, 56, 56);
 }
 .imgUltIzq {
-    justify-content: flex-start;
+    float: left;
 }
 .imgUltDer{
-    justify-content: flex-end;
+    float: right;
 }
 
