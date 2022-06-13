@@ -1,7 +1,7 @@
 .item{
     color: black;
 }
-.img{
+.imagen2{
     width: 7rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -12,7 +12,7 @@
     border-radius: 0;
     border: 1px solid rgb(159, 159, 159);
 }
-.fotoFinal{
+.ultimaFoto{
     width: auto;
     border-radius: 0;
     align-items: center;
@@ -35,10 +35,10 @@ footer{
     margin: 1rem;
     background-color: rgb(56, 56, 56);
 }
-.imgUltIzq {
+.imagenIzquierda {
     float: left;
 }
-.imgUltDer{
+.imagenDerecha{
     float: right;
 }
 
